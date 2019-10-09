@@ -1,0 +1,167 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.signin {
+  font-size: 15px;
+  margin: 7px;
+  font-family: "acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: bold;
+  color: #a4a4a4;
+  text-decoration: none;
+  transition: 0.1s;
+ 
+}
+.signin:hover
+{
+    color:white;
+}
+.right-end {
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+}
+.header {
+  height: 60px;
+  width: 100%;
+  background: #000;
+  display: flex;
+}
+.behance_logo {
+  text-decoration: none;
+  font-size: 25px;
+  padding: 13px;
+  margin-left: 1%;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-right: 8%;
+  width: 100%;
+}
+.satauri {
+  list-style-type: none;
+
+  display: inline-flex;
+  color: white;
+  margin-right: 15px;
+  align-items: center;
+}
+
+.decoration {
+  text-decoration: none;
+  color: #a4a4a4;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.decoration:hover {
+  color: white;
+}
+.header_icons {
+  display: inline-flex;
+}
+.signupemail {
+  margin-left: 10px;
+
+  width: 150px;
+  height: 20px;
+  background: #0057ff;
+  border-radius: 50px;
+
+  border: 1px solid transparent;
+  padding: 4px 6px 8px;
+  text-align: center;
+  cursor: pointer;
+}
+.signupemail:hover {
+  background: blue;
+}
+.or {
+  padding: 5px;
+  color: #a4a4a4;
+}
+.signemail {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+
+  position: relative;
+  top: 15%;
+}
+.facebook_icon {
+  background: #4267b2;
+  width: 33px;
+  height: 33px;
+  border-radius: 50px;
+  text-align: center;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.facebook_icon:hover {
+  background: #002f9a;
+}
+.f {
+  font-size: 25px;
+  text-align: center;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 10%;
+}
+.gmail {
+  width: 33px;
+  height: 33px;
+  border-radius: 50px;
+  text-align: center;
+  background: white;
+}
+.icon {
+  position: relative;
+  top: 15%;
+  height: 20px;
+  padding: 1px 1px 1px;
+  right: 1.2%;
+}
+.nano {
+  text-decoration: none;
+  color: #a4a4a4;
+  font-size: 18px;
+  font-weight: bold;
+ 
+}
+.nano:hover
+{
+    color:white;
+  
+}
+.search_icon {
+  position: relative;
+  top: 15%;
+  height: 20px;
+  padding: 1px 1px 1px;
+  right: 1.2%;
+  padding: 2px;
+}
+
+.adobe {
+  position: relative;
+  top: 15%;
+  height: 20px;
+  padding: 1px 1px 1px;
+  right: 1.2%;
+  padding: 2px;
+}
